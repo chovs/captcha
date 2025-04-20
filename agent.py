@@ -7,7 +7,7 @@ import asyncio
 import time
 
 initial_actions = [
-    {'open_tab': {'url': 'https://v0-captcha-test-page-yuk7ve.vercel.app/'}}
+    {'open_tab': {'url': 'yourpath/captcha-slider.html'}}
 ]
 
 llm = ChatDeepSeek(model="deepseek-reasoner")
